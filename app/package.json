@@ -1,0 +1,25 @@
+{
+  "name": "arduino-electron",
+  "version": "1.0.0",
+  "description": "Arduino talking to Node",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "postinstall": "electron-rebuild"
+  },
+  "keywords": [
+    "Electron",
+    "Arduino"
+  ],
+  "author": "Nigel Gilbert",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "bluebird": "^3.4.7",
+    "electron": "1.4.13",
+    "electron-prebuilt": "1.4.13",
+    "electron-rebuild": "1.5.5"
+  },
+  "dependencies": {
+    "serialport": "^4.0.7"
+  }
+}
